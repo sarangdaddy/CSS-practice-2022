@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Challenge!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="section__list">
+      <div class="section__bar">
+        <i class="fa-solid fa-arrow-left"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+
+      <header class="list__header">
+        <div class="list__header__img">
+          <img
+            src="data:image/jpeg;base64,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"
+          />
+        </div>
+        <h2>아이유(IU), 이지은</h2>
+        <h4>가수, 탤런트</h4>
+        <div class="list__header__tag">
+          <div class="list__header__tag__column"><span>Shuffle</span></div>
+          <div class="list__header__tag__column">
+            <i class="fa-solid fa-heart fa-lg"></i>
+            <span>212,971</span>
+          </div>
+        </div>
+      </header>
+
+      <main class="list__main">
+        <ul class="list__main__songs">
+          <li class="list__main__song">
+            <div class="list__main__song-img">
+              <img
+                src="https://search.pstatic.net/common?type=f&size=150x150&quality=100&direct=true&src=https%3A%2F%2Fmusicmeta-phinf.pstatic.net%2Falbum%2F006%2F520%2F6520837.jpg%3Ftype%3Dr204Fll%26v%3D20211018235916"
+              />
+            </div>
+            <div class="list__main__song-title">
+              <span class="name">아이유(IU),이지은</span>
+              <span class="song-name">Strawberry Moon</span>
+            </div>
+            <div class="list__main__song-btn">
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+          </li>
+          <li class="list__main__song">
+            <div class="list__main__song-img">
+              <img
+                src="https://search.pstatic.net/common?type=f&size=150x150&quality=100&direct=true&src=https%3A%2F%2Fmusicmeta-phinf.pstatic.net%2Falbum%2F005%2F211%2F5211473.jpg%3Ftype%3Dr204Fll%26v%3D20220524142622"
+              />
+            </div>
+            <div class="list__main__song-title">
+              <span class="name">아이유(IU),이지은</span>
+              <span class="song-name">LILAC</span>
+            </div>
+            <div class="list__main__song-btn">
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+          </li>
+          <li class="list__main__song">
+            <div class="list__main__song-img">
+              <img
+                src="https://search.pstatic.net/common?type=f&size=150x150&quality=100&direct=true&src=https%3A%2F%2Fmusicmeta-phinf.pstatic.net%2Falbum%2F006%2F810%2F6810656.jpg%3Ftype%3Dr204Fll%26v%3D20220410171916"
+              />
+            </div>
+            <div class="list__main__song-title">
+              <span class="name">아이유(IU),이지은</span>
+              <span class="song-name">조각집</span>
+            </div>
+            <div class="list__main__song-btn">
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+          </li>
+          <li class="list__main__song">
+            <div class="list__main__song-img">
+              <img
+                src="https://search.pstatic.net/common?type=f&size=150x150&quality=100&direct=true&src=https%3A%2F%2Fmusicmeta-phinf.pstatic.net%2Falbum%2F004%2F550%2F4550593.jpg%3Ftype%3Dr204Fll%26v%3D20220514132018"
+              />
+            </div>
+            <div class="list__main__song-title">
+              <span class="name">아이유(IU),이지은</span>
+              <span class="song-name">에잇</span>
+            </div>
+            <div class="list__main__song-btn">
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+          </li>
+        </ul>
+      </main>
+    </section>
+
+    <section class="section__play">
+      <div class="section__bar">
+        <i class="fa-solid fa-arrow-left"></i>
+        <i class="fa-solid fa-ellipsis-vertical"></i>
+      </div>
+    </section>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/ca4a5a88ab.js"
+    crossorigin="anonymous"
+  ></script>
+</html>

@@ -1,0 +1,155 @@
+@import "component/section-bar.css";
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;700&family=Nunito:wght@400;800&family=Open+Sans:wght@400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightgray;
+}
+
+section {
+  width: 300px;
+  height: 650px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.section__list {
+  margin-right: 20px;
+}
+
+.section__play {
+  margin-left: 20px;
+}
+
+.list__header__img img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: 0px 5px 10px 2px rgba(253, 108, 229, 0.911);
+  margin-bottom: 20px;
+}
+
+.list__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list__header h4 {
+  font-size: 13px;
+  opacity: 0.5;
+  margin-top: 10px;
+}
+
+.list__header__tag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.list__header__tag__column {
+  font-size: 12px;
+  font-weight: 800;
+  padding: 10px 25px;
+  display: block;
+}
+
+.list__header__tag__column:first-child {
+  background-color: rgb(0, 0, 0, 0.7);
+  color: white;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.list__header__tag__column:last-child {
+  background-color: rgb(255, 192, 203, 0.7);
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.list__header__tag__column span {
+  opacity: 0.7;
+}
+
+.list__main {
+  padding: 0 30px;
+  margin-top: 20px;
+}
+
+.list__main__songs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.list__main__song {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 12px;
+  box-shadow: 0px 2px 3px 0px rgba(250, 198, 241, 0.911);
+  border-radius: 10px;
+}
+
+.list__main__song-img {
+  width: 20%;
+  margin-right: 6px;
+}
+
+.list__main__song-img img {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  margin-top: 4px;
+}
+
+.list__main__song-title {
+  width: 77%;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 12px;
+  opacity: 0.5;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.song-name {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.list__main__song-btn {
+  width: 3%;
+}
+
+.list__main__song-btn i {
+  opacity: 0.5;
+}
