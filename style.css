@@ -17,14 +17,13 @@ input:focus {
 }
 
 body {
-  font-family: "Kanit", sans-serif;
   font-family: "Nunito", sans-serif;
-  font-family: "Open Sans", sans-serif;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 100vh;
   background-color: lightgray;
+  flex-wrap: wrap;
 }
 
 section {
@@ -40,14 +39,6 @@ section {
   justify-content: space-between;
   padding: 30px;
   font-weight: 800;
-}
-
-.section__list {
-  margin-right: 20px;
-}
-
-.section__play {
-  margin-left: 20px;
 }
 
 .list__header__img img {
