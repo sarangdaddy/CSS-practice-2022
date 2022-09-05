@@ -8,32 +8,20 @@
     <link rel="stylesheet" href="css.css" />
   </head>
   <body>
-    <h1>팀 배정</h1>
-    <table>
-      <tr>
-        <td colspan="3" id="not_assigned"></td>
-      </tr>
-      <tr>
-        <td>1팀</td>
-        <td>2팀</td>
-        <td>3팀</td>
-      </tr>
-      <tr>
-        <td>
-          <button onclick="assignMemberToTeam(1)">배정</button>
-          <ul id="team_1"></ul>
-        </td>
-        <td>
-          <button onclick="assignMemberToTeam(2)">배정</button>
-          <ul id="team_2"></ul>
-        </td>
-        <td>
-          <button onclick="assignMemberToTeam(3)">배정</button>
-          <ul id="team_3"></ul>
-        </td>
-      </tr>
-    </table>
-
+    <h1>Random Number Game</h1>
+    <form class="game__form">
+      <span class="range__number"
+        >Generate a number between 0 and
+        <input type="number" required placeholder="" min="0"
+      /></span>
+      <br />
+      <span class="guess__number"
+        >Guess the number <input type="number" required placeholder="" min="0"
+      /></span>
+      <button class="play__button">Play</button>
+      <h4 class="chosen__form"></h4>
+      <h4 class="result__form"></h4>
+    </form>
     <script src="js.js"></script>
   </body>
 </html>
