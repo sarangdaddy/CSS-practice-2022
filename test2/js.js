@@ -16,10 +16,10 @@ function getResult(machineNumber, guessNumber) {
 
 function makeRandomNum(event) {
   event.preventDefault();
-  const rangeNumber = rangeNumberInput.value;
-  const machineNumber = Math.ceil(Math.random() * rangeNumber);
-  const guessNumber = guessNumberInput.value;
-  getResult(parseInt(machineNumber), parseInt(guessNumber));
+  const rangeNumber = parseInt(rangeNumberInput.value);
+  const machineNumber = Math.floor(Math.random() * (rangeNumber + 1));
+  const guessNumber = parseInt(guessNumberInput.value);
+  getResult(machineNumber, guessNumber);
 }
 
 gameForm.addEventListener("submit", makeRandomNum);
